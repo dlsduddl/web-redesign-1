@@ -53,7 +53,12 @@ html {
 .top-bar {
   height: 98px;
   width:100%;
-  background-color:pink;
+ transition: .3s;
+}
+.top-bar.active {
+  background-color:white;
+  border-bottom:1px solid #ddd;
+  transition: .3s;
 }
 .logo > a > img {
   width: 200px;
@@ -67,32 +72,39 @@ html {
 }
 .menu-bar > nav > ul > li > a {
   font-size:1.1rem;
-  padding: 37px 22px;
+  padding: 37px 25px;
   font-weight:bold;
+}
+.menu-bar > nav > ul > li:hover > a {
+  border-bottom: 3px solid #0575E0;
+  color:#0575E0;
+}
+.menu-bar > nav > ul > li > ul > li:hover > a {
+  color:#0575E0;
+  font-weight:bold;
+  text-decoration:underline;
+  background-color: #ddd;
+  border-radius:10px;
 }
 .menu-bar > nav > ul > li {
   position:relative;
-  border:1px solid blue;
 }
 .menu-bar > nav > ul > li > ul {
   position:absolute;
-  top:60px;
+  top:62px;
+  background-color:white;
+  width: 200px;
+  opacity:0;
+  visibility:hidden;
+  transition: opacity, 0.2s;
 }
 .menu-bar > nav > ul > li:hover > ul {
   opacity:1;
-}
-.menu-bar > nav > ul > li > ul {
-  width: 200px;
-  border: 1px solid blue;
-  opacity:0;
-  transition: opacity, 0.2s;
-}
-.menu-bar > nav > ul > li > ul > li {
-  width: 100%;
+  visibility:visible;
 }
 .menu-bar > nav > ul > li > ul > li > a {
   display:block;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .top-bar-right {
   margin-right: 200px;
