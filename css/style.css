@@ -54,6 +54,8 @@ html {
   height: 98px;
   width:100%;
  transition: .3s;
+  position:relative;
+  z-index:10;
 }
 .top-bar.active {
   background-color:white;
