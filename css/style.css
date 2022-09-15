@@ -97,6 +97,7 @@ html {
   opacity:0;
   visibility:hidden;
   transition: opacity, 0.2s;
+  border-radius:0 0 10px 10px;
 }
 .menu-bar > nav > ul > li:hover > ul {
   opacity:1;
@@ -117,4 +118,27 @@ html {
 .top-bar-right > .certi {
   width: 134px;
   margin-left: 24px;
+}
+
+/* 배너 */
+banner {
+  position:absolute;
+  top:0;
+  height: 586px;
+  width: 100%;
+  background-color: #F9F2ED;
+}
+.banner {
+  margin-top:98px;
+  width:1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.banner .swiper {
+  width: 1200px;
+  height:488px;
+}
+
+:root {
+    --swiper-theme-color: #0575E0 !important;
 }
