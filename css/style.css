@@ -133,6 +133,7 @@ banner {
 .banner {
   margin-top:98px;
   width:1200px;
+  height:488px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -143,4 +144,33 @@ banner {
 
 :root {
     --swiper-theme-color: #0575E0 !important;
+}
+
+/* 섹션1 */
+.section-1 {
+  margin-top:488px;
+  width: 1200px;
+  height: 203px;
+}
+.section-1-menu  {
+  margin-right: 35px;
+}
+.section-1-menu > img {
+  cursor:pointer;
+}
+.section-1-img > ul > li {
+  margin:15px;
+  cursor:pointer;
+}
+.section-1-img > ul > li > img {
+  width: 100px;
+}
+.section-1-img > ul > li > p {
+  text-align:center;
+  margin-top:1px;
+  margin-left: -4px;
+  font-size:1.2rem;
+}
+.section-1-img > ul > li:hover > p {
+  text-decoration:underline;
 }
