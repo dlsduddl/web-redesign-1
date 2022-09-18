@@ -270,3 +270,66 @@ banner {
   text-decoration:underline;
   cursor:pointer;
 }
+
+/* 푸터 */
+.footer-wrap {
+  width: 1200px;
+  height: 250px;
+}
+.footer-wrap > .footer-1 > div {
+  width: 180px;
+  height: 43px;
+  border-radius:10px;
+  border: 2px solid #B4B4B4;
+  margin:30px 10px 10px 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.footer-wrap > .footer-1 > div > a {
+  font-size:1.1rem;
+}
+.footer-wrap > .footer-1 > div:hover > a {
+  text-decoration:underline;
+}
+.footer-2 > div {
+  width: 220px;
+  height: 50px;
+}
+.footer-2-txt {
+  margin-left: 20px;
+}
+.footer-2-txt > div > a {
+  display:block;
+  padding: 15px;
+  font-weight:bold;
+}
+.footer-2-txt > div:hover > a {
+  text-decoration:underline;
+}
+.footer-2-img > a {
+  padding:10px;
+}
+.footer-2-img > a:nth-child(2) > img {
+  margin-top: 7px;
+}
+.footer-2-img > a:last-child > img {
+  margin-top: -2px;
+}
+.footer-3-txt > p {
+  padding:0px 12px;
+  color: #878787;
+}
+.footer-3-txt > p:after {
+  content:"|";
+  margin-left: 20px;
+}
+.footer-3-txt > p:last-child:after {
+  content:none;
+}
+.footer-3 > .copyright {
+  color:#878787;
+  margin-left: 45px;
+  font-size:0.85rem;
+  margin-top:-18px;
+}
