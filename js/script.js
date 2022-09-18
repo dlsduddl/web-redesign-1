@@ -36,9 +36,9 @@ function SliderBox2__init() {
     loop: true,
 
     // If we need pagination
-    pagination: {
-      el: ".slider-box-2 .swiper-pagination"
-    },
+    // pagination: {
+    //   el: ".slider-box-2 .swiper-pagination"
+    // },
 
     // Navigation arrows
     navigation: {
@@ -56,9 +56,9 @@ function SliderBox3__init() {
     loop: true,
 
     // If we need pagination
-    pagination: {
-      el: ".slider-box-3 .swiper-pagination"
-    },
+    // pagination: {
+    //   el: ".slider-box-3 .swiper-pagination"
+    // },
 
     // Navigation arrows
     navigation: {
